@@ -1,0 +1,24 @@
+# modules
+node_modules/
+
+# temp
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+# binary
+*.exe
+
+# folders
+/.svelte-kit
+/package
+build/
+dist/
+_*/
+
+# macos
+.DS_Store
+
+# secrets
+.env
+.env.*
+!.env.example
